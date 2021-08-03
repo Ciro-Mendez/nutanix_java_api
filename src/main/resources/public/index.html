@@ -1,0 +1,27 @@
+<html>
+<title>Nutanix Demo</title>
+<body>
+
+<div><img src="nutanix.png" alt="Demo for API Calls" width="150"
+height="150"></div>
+<h2>Demo API Calls</h2>
+
+<form method="post" action="/getHosts">
+    Call to the method get Hosts<p></p>
+   <strong>URL to the method:</strong>
+
+    <input type="text" id="url" name="url" required
+           minlength="4"  size="80" placeholder="url for the api https://<ip>:<port>/api/nutanix/v2.0/hosts/">
+    <p></p>
+    <strong>User:</strong>
+    <input type="text" id="user" name="user" required
+           minlength="4"  size="15" placeholder="user from cluster">
+    <p></p>
+    <strong>Password:</strong>
+    <input type="password" id="password" name="password" required
+           minlength="4"  size="15" placeholder="password">
+    <p></p>
+    <button>Submit</button>
+</form>
+</body>
+</html>
